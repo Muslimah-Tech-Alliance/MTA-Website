@@ -1,0 +1,82 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15rem;
+    justify-content: center;
+    padding: 8%;;
+
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    margin-bottom: 8rem;
+}
+
+
+.contact h2{
+    padding-bottom: 1rem;
+}
+
+.contact .icons{
+    margin-top: 4rem;
+    display: flex;
+    gap: 2rem
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    gap: 1rem;
+}
+
+.links a{
+    white-space: nowrap;
+    text-decoration: none;
+}
+.purple-bar{
+    width: 70px
+}
+
+.company, .programs, .resources{
+    margin-top: 2rem;
+}
+
+.copyright{
+    display: flex;
+    padding-top: 1rem;
+    justify-content: space-around;
+
+}
+
+.policy-terms{
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+}
+
+.policy-terms p{
+    align-self: center;
+    margin-top: -4px;
+    font-size: 16px;
+}
+
+.policy-terms a{
+    white-space: nowrap;
+    font-size: 18px;
+    
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+

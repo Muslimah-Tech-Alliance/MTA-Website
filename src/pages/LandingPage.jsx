@@ -4,7 +4,9 @@ import AboutUs from "../components/AboutUs"
 import Programs from "../components/Programs";
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
-
+import TeamMembers from "../components/TeamMembers";
+import Partners from "../components/Partners"
+import Footer from "../components/Footer"
 
 export default function LandingPage(){
     const location = useLocation();
@@ -22,6 +24,9 @@ export default function LandingPage(){
             <Header/>
             <AboutUs/>
             <Programs/>
+            <TeamMembers/>
+            <Partners/>
+            <Footer/>
         </div>
     )
 }

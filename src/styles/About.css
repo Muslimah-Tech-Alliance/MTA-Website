@@ -7,7 +7,7 @@
     text-align: center;
     padding: 4rem 2rem;
     gap: 3rem;
-    margin-top: -5rem;
+    margin-top: -14rem;
 }
 
 .mission-and-vision{
@@ -15,6 +15,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.mission-section p, .vision-section p{
+    text-align: left;
 }
 
 .mission-section, .vision-section, .about-heading{
