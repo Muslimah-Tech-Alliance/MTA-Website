@@ -4,19 +4,19 @@ const AboutSection = () => {
   const processSteps = ["Learn", "Build", "Pitch", "Scale"];
 
   return (
-    <section className="w-full py-20 px-6 md:px-16 lg:px-24 bg-white">
-      <div className="max-w-7xl mx-auto">
+    <section className="w-full py-20 lg:px-[4rem] bg-white">
+      <div className="w-full mx-auto">
         {/* Section Heading */}
         <motion.h2 
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-16"
+          className="text-3xl md:text-4xl font-bold text-center text-gray-900 lg:mb-16 mb-8"
         >
           About The Summit
         </motion.h2>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-16 gap-8 items-center">
           
           {/* Left: Tech Visual */}
           <motion.div 
@@ -24,7 +24,7 @@ const AboutSection = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
-            className="relative"
+            className="relative lg:w-[26rem]"
           >
             <img 
               src="/images/summit/about.svg" 
@@ -54,12 +54,12 @@ const AboutSection = () => {
             </p>
 
             {/* Process Flow */}
-            <div className="pt-8 flex items-center justify-between md:justify-start md:space-x-4">
+            <div className="lg:pt-8 py-4 flex items-center justify-between md:justify-start md:space-x-4">
               {processSteps.map((step, index) => (
                 <div key={step} className="flex items-center">
                   <motion.span 
-                    whileHover={{ y: -5, color: "#7464B1" }}
-                    className="px-4 py-2 bg-purple-50 text-[#7464B1] text-xs font-semibold rounded-md border border-purple-100"
+                    whileHover={{ y: -5, color: "#6E5A9E" }}
+                    className="px-4 py-2 bg-purple-50 text-[#6E5A9E] text-xs font-semibold rounded-md border border-purple-100"
                   >
                     {step}
                   </motion.span>
