@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 
 const HeroSection = () => {
   return (
-    <section className="relative w-full min-h-[80vh] flex items-center bg-white overflow-hidden">
+    <section className="relative w-full min-h-[80vh] flex items-center bg-white overflow-hidden px-6 md:px-16 lg:px-[7.5rem]">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 lg:gap-[10rem] gap-[2rem] items-center">
         
         {/* Left Content Column */}

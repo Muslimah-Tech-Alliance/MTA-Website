@@ -4,7 +4,7 @@ const AboutSection = () => {
   const processSteps = ["Learn", "Build", "Pitch", "Scale"];
 
   return (
-    <section className="w-full py-20 lg:px-[4rem] bg-white">
+    <section className="w-full py-20 px-6 md:px-16 lg:px-[7.5rem] bg-white">
       <div className="w-full mx-auto">
         {/* Section Heading */}
         <motion.h2 

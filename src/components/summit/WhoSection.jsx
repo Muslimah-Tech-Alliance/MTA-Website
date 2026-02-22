@@ -11,14 +11,14 @@ const categories = [
 
 const WhoSection = () => {
   return (
-    <section className="py-20 px-6 md:px-16 lg:px-24 bg-white">
+    <section className="py-20 bg-white px-6 md:px-16 lg:px-[13rem]">
       <div className="max-w-6xl mx-auto">
         {/* Title */}
         <motion.h2 
           initial={{ opacity: 0, y: -20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12"
+          className="text-3xl md:text-4xl font-bold text-center text-[#121212] lg:mb-12 mb-6"
         >
           Who Should Attend?
         </motion.h2>
@@ -29,7 +29,7 @@ const WhoSection = () => {
           whileInView={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          className="bg-[#7464B1] rounded-[2rem] p-8 md:p-16 shadow-2xl overflow-hidden relative"
+          className="bg-[#6E5A9E] rounded-[2rem] p-8 md:p-16 shadow-2xl overflow-hidden relative"
         >
           {/* Subtle background decoration */}
           <div className="absolute top-0 right-0 w-64 h-64 bg-white opacity-5 rounded-full -mr-32 -mt-32" />
@@ -49,7 +49,7 @@ const WhoSection = () => {
                 whileHover={{ scale: 1.03 }}
                 className="bg-white px-6 py-4 rounded-xl flex items-center space-x-3 shadow-md"
               >
-                <CheckCircle2 className="text-[#7464B1] w-5 h-5 flex-shrink-0" />
+                <CheckCircle2 className="text-[#6E5A9E] w-5 h-5 flex-shrink-0" />
                 <span className="text-gray-800 font-medium text-sm md:text-base">
                   {text}
                 </span>
