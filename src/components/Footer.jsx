@@ -3,21 +3,23 @@ import LinkedInIcon from "../assets/Linkedin-icon2.png";
 import FbIcon from "../assets/fb-icon2.png";
 import PurpleBar from "../assets/purple-horizontal-bar.png";
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import "../styles/Footer.css"
+import "../styles/Footer.css";
 
 export default function Footer() {
   const location = useLocation();
   const navigate = useNavigate();
 
-  const handleAboutClick = (e) => {
+  const handleScrollTo = (sectionId) => (e) => {
     e.preventDefault();
+
     if (location.pathname === "/") {
-      const element = document.getElementById("about-us");
+      const element = document.getElementById(sectionId);
       element?.scrollIntoView({ behavior: "smooth" });
     } else {
-      navigate("/", { state: { scrollToAbout: true } });
+      navigate("/", { state: { scrollTo: sectionId } });
     }
   };
+
   return (
     <div className="footer">
       <div className="info">
@@ -37,19 +39,25 @@ export default function Footer() {
 
         <div className="company">
           <h2>Company</h2>
-          <img src={PurpleBar} alt="" className="purple-bar"/>
+          <img src={PurpleBar} alt="" className="purple-bar" />
           <div className="links">
-            <a>
+            <a href="#about-us" onClick={handleScrollTo("about-us")}>
               About Us
             </a>
-            <a href="">Mission & Vision</a>
-            <a href="">Team</a>
+
+            <a href="#mission" onClick={handleScrollTo("mission")}>
+              Mission & Vision
+            </a>
+
+            <a href="#team" onClick={handleScrollTo("team")}>
+              Team
+            </a>
           </div>
         </div>
 
         <div className="programs">
           <h2>Programs</h2>
-          <img src={PurpleBar} alt="" className="purple-bar"/>
+          <img src={PurpleBar} alt="" className="purple-bar" />
           <div className="links">
             <a href="">Muslimah Code Academy</a>
             <a href="">Muslimah Pitch-a-thon</a>
@@ -60,7 +68,7 @@ export default function Footer() {
 
         <div className="resources">
           <h2>Resources</h2>
-          <img src={PurpleBar} alt=""  className="purple-bar"/>
+          <img src={PurpleBar} alt="" className="purple-bar" />
           <div className="links">
             <a href="">Muslimah Code Academy</a>
             <a href="">Muslimah Pitch-a-thon</a>
@@ -68,8 +76,6 @@ export default function Footer() {
             <a href="">Muslimah Startup Advisory Academy</a>
           </div>
         </div>
-
-
       </div>
 
       <hr />
@@ -77,9 +83,9 @@ export default function Footer() {
       <div className="copyright">
         <p>&copy; Muslimah Tech Alliance. All rights reserved.</p>
         <div className="policy-terms">
-            <a href="">Privacy Policy</a>
-            <p>|</p>
-            <a href="">Terms & Conditions</a>
+          <a href="">Privacy Policy</a>
+          <p>|</p>
+          <a href="">Terms & Conditions</a>
         </div>
       </div>
     </div>

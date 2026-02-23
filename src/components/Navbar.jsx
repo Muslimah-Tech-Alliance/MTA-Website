@@ -5,23 +5,25 @@ export default function NavBar() {
   const location = useLocation();
   const navigate = useNavigate();
 
-  const handleAboutClick = (e) => {
+  const handleScrollTo = (sectionId) => (e) => {
     e.preventDefault();
+
     if (location.pathname === "/") {
-      const element = document.getElementById("about-us");
+      const element = document.getElementById(sectionId);
       element?.scrollIntoView({ behavior: "smooth" });
     } else {
-      navigate("/", { state: { scrollToAbout: true } });
+      navigate("/", { state: { scrollTo: sectionId } });
     }
   };
+
   return (
     <div className="navbar">
       <img src={MtaLogo} alt="Muslimah Tech Alliance Logo" />
       <nav>
-        <a href="#about-us" className="nav-link" onClick={handleAboutClick}>
+        <a href="#about-us" className="nav-link" onClick={handleScrollTo("about-us")}>
           About Us
         </a>
-        <Link to="/programs" className="nav-link">
+        <Link to="/programs" className="nav-link" onClick={handleScrollTo("programs")}>
           Programs
         </Link>
         <Link to="/past-events" className="nav-link">

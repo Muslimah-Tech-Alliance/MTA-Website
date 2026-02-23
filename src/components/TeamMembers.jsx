@@ -8,11 +8,11 @@ import "../styles/TeamMembers.css";
 
 export default function TeamMembers(){
     return(
-        <div className="team-section">
+        <div className="team-section" id="team">
             <h1>Meet Our Team Members</h1>
             <div className="profiles">
 
-                <div className="profile-card low">
+                <div className="profile-card low left">
                     <img src={MemberPic} alt="" />
                     <h3>Mariam Bello</h3>
                     <p>Founder</p>
@@ -25,7 +25,7 @@ export default function TeamMembers(){
                 </div>
 
 
-                <div className="profile-card high">
+                <div className="profile-card high right">
                      <img src={MemberPic} alt="" />
                     <h3>Mariam Bello</h3>
                     <p>Founder</p>
@@ -37,7 +37,7 @@ export default function TeamMembers(){
                     </div>
                 </div>
 
-                <div className="profile-card low">
+                <div className="profile-card low left">
                      <img src={MemberPic} alt="" />
                     <h3>Mariam Bello</h3>
                     <p>Founder</p>
@@ -49,7 +49,7 @@ export default function TeamMembers(){
                     </div>
                 </div>
 
-                <div className="profile-card high">
+                <div className="profile-card high right">
                      <img src={MemberPic} alt="" />
                     <h3>Mariam Bello</h3>
                     <p>Founder</p>
@@ -61,7 +61,7 @@ export default function TeamMembers(){
                     </div>
                 </div>
 
-                <div className="profile-card low">
+                <div className="profile-card low left">
                      <img src={MemberPic} alt="" />
                     <h3>Mariam Bello</h3>
                     <p>Founder</p>

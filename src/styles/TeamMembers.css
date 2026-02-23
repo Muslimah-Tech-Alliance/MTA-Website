@@ -25,10 +25,70 @@
     margin-top: 4rem;
     
 }
-.social-links img{
-    margin-right: 30px;
+.social-links img:not(:first-child){
+    width: 20px;
+    height: 20px;
 }
 
 .social-links{
+    display: flex;
+    gap: 1.6rem;
+    align-items: flex-end;
     
+}
+
+.team-section h1{
+        white-space: nowrap;
+        text-align: center;
+    }
+
+@media (max-width: 1400px) {
+    .team-section{
+        width: 100%;
+        overflow-x: hidden;
+        align-items: center;
+    }
+    .team-section h1 {
+        white-space: normal;
+        width: 90%;         
+        margin: 0 auto 5rem auto; 
+        text-align: center;
+    }
+    .profiles {
+        flex-direction: column; 
+        align-items: flex-start;
+       width: 80%;
+        gap: 0;
+       margin: 10rem 0rem 0rem 5%;
+    }
+
+    .profile-card {
+        width: 50%;
+        position: relative;
+    }
+
+    
+    .low, .high {
+        margin-top: 0; 
+    }
+
+    
+    .right {
+        align-self: flex-end; 
+        margin-top: -8rem;
+        margin-left: 20rem;
+    }
+
+    .left{
+        margin-top: -10rem;
+        align-self: flex-start;
+        z-index: 1;
+        margin-left: -5%;
+    }
+
+
+    .social-links img {
+        margin-right: 15px; 
+        width: 15px; 
+    }
 }

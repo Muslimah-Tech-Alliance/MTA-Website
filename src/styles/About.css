@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 4rem 2rem;
+    padding: 4rem 0rem;
     gap: 3rem;
     margin-top: -14rem;
 }
@@ -33,12 +33,36 @@
     width: 100%
 }
 
-.mission-section img{
-width: 600px;
-padding-top: 2rem;
+
+  .mission-section img,
+.vision-section img {
+    width: 100%;
+    max-width: 600px; /* keeps it from getting too big on large screens */
+    height: auto;
+    padding-top: 2rem;
 }
 
- .vision-section img{
-    width: 600px;
-    padding-top: 2rem;
- }
+
+ @media (max-width: 1400px){
+    .about-heading p{
+        width: 80%;
+        text-align: left;
+    }
+    .mission-and-vision{
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+    .mission-section p, .vision-section p{
+        text-align: center;
+        width: 80%;
+    }
+    
+
+    .mission-section img,
+    .vision-section img {
+        width: 80%;  /* responsive */
+        max-width: 400px;
+    }
+}

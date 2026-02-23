@@ -1,4 +1,4 @@
-.partners{
+/* .partners{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,4 +12,44 @@
     gap: 2rem;
     justify-content: space-around;
     width:  90%
+}
+
+
+@media (max-width: 1400px) {
+    
+} */
+
+.partners {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding: 2rem 0;
+}
+
+.partners-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 2rem;
+    width: 90%;
+}
+
+.partners-grid img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+
+@media (max-width: 1400px) {
+    .partners-grid {
+        grid-template-columns: repeat(2, 1fr);
+        width: 80%; 
+        gap: 3rem;  
+    }
+    
+    .partners h1 {
+        margin-bottom: 2rem;
+    }
 }

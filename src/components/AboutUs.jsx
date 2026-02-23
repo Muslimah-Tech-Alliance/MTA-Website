@@ -13,7 +13,7 @@ export default function AboutUs() {
         </p>
       </div>
 
-      <div className="mission-and-vision">
+      <div id = "mission-vision" className="mission-and-vision">
         <div className="mission-section">
           <h2>Our Mission</h2>
           <p>

@@ -78,5 +78,59 @@ a{
     color: black;
 }
 
+@media (max-width: 1400px) {
+    .footer {
+        margin-top: 10rem;
+        padding: 10% 5%;
+        text-align: center; 
+    }
+
+    .info {
+        flex-direction: column;
+        align-items: center; /* Centers the columns horizontally */
+        gap: 4rem; /* Reduce the 10rem gap to something manageable */
+        margin-bottom: 4rem;
+    }
+
+    .contact, .company, .programs, .resources {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Ensure internal text/links are centered */
+        width: 100%;
+    }
+
+    .contact .icons {
+        justify-content: center; /* Center the social icons */
+        margin-top: 2rem;
+    }
+
+    .links {
+        align-items: center; /* Center the column of links */
+    }
+
+  .copyright {
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+        justify-content: center;
+        width: 100%;
+        gap: 1rem;
+        padding: 2rem 0;
+        overflow: hidden; 
+    }
+
+    .copyright > p:first-of-type {
+        white-space: normal; 
+        text-align: center;
+        width: 100%; 
+        margin: 0;   
+    }
+
+    .policy-terms {
+        flex-wrap: nowrap; 
+        justify-content: center;
+    }
+}
+
 
 
