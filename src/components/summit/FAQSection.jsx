@@ -59,7 +59,7 @@ const FAQSection = () => {
   const [openIndex, setOpenIndex] = useState(0);
 
   return (
-    <section className="py-24 px-6 md:px-16 lg:px-[7.5rem] bg-white relative">
+    <section className="px-6 md:px-16 lg:px-[7.5rem] bg-white relative">
       {/* Decorative side element */}
       <div className="absolute left-0 top-1/2 -translate-y-1/2 w-1 h-32 bg-[#6E5A9E] rounded-r-full hidden lg:block opacity-20" />
 
