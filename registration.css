@@ -11,16 +11,15 @@ body {
   background: white;
   border-radius: 16px;
   justify-content: center;
-  margin-top: 30px;
-  width: 895px;
+  margin-top: 60px;
+  width: 600px;
   height: 470.81px;
 }
 
 .header {
   flex: 1;
-  gap: 4.1px;
   text-align: center;
-  line-height: 0.05;
+  line-height: 0.005;
   width: 195.26px;
   height: 56.36px;
 }
@@ -40,7 +39,7 @@ body {
   line-height: 0.5;
 }
 .header p {
-  font-size: 8.29px;
+  font-size: 8.30px;
   font-weight: lighter;
   font-family: "Public Sans", sans-serif;
   color: rgba(18, 18, 18, 0.5);
@@ -77,6 +76,7 @@ cursor: pointer;
 width: 150px;
 height: 31px;
 font-size: 16px;
+justify-content: center;
 }
 
 .button {
