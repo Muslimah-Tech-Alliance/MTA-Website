@@ -4,6 +4,7 @@ import AboutUs from "./components/Landing Page Components/AboutUs.jsx"
 import PastEvents from "./components/PastEvents.jsx"
 import Resources from "./components/Resources.jsx"
 import LandingPage from "./pages/LandingPage.jsx"
+import Summit from "./pages/Summit";
 
 
 import Programs from "./components/Landing Page Components/Programs.jsx";
@@ -18,10 +19,12 @@ function App() {
       <Route path ="/past-events" element={<PastEvents/>}/>
       <Route path ="/programs" element={<Programs/>}/>
       <Route path ="/resources" element={<Resources/>}/>
+      <Route path="/summit" element={<Summit />} />
     </Routes>
     </BrowserRouter>
         
   )
+ 
 }
 
 export default App
