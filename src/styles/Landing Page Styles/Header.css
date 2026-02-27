@@ -1,7 +1,7 @@
 .header {
     background: 
         linear-gradient(rgba(88, 5, 99, 0.3), rgba(67, 3, 64, 0.3)),
-        url("../assets/HeaderImg.png") center top / cover no-repeat;
+        url("../../assets/Landing\ Page\ Pics/HeaderImg.svg") center top / cover no-repeat;
 
     height: 80vh;
     padding: 6rem 5rem;
@@ -21,6 +21,8 @@ h1{
     width: 58%;
     padding-top: 17rem;
     text-align: center;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 700;
 }
 
 p{

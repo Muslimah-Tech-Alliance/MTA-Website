@@ -28,6 +28,10 @@
     padding: 2rem 0;
 }
 
+.partners h1{
+      font-family: 'Public Sans', sans-serif;
+
+}
 .partners-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr); 

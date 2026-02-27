@@ -1,4 +1,4 @@
-import MtaLogo from "../assets/MtaLogo.svg";
+import MtaLogo from "../assets/Landing Page Pics/MtaLogo.svg";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import "../styles/Navbar.css";
 export default function NavBar() {

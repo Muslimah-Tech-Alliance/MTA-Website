@@ -1,7 +1,7 @@
-import XIcon from "../assets/X-icon2.png";
-import LinkedInIcon from "../assets/Linkedin-icon2.png";
-import FbIcon from "../assets/fb-icon2.png";
-import PurpleBar from "../assets/purple-horizontal-bar.png";
+import XIcon from "../assets/Social icons/X-icon2.png"
+import LinkedInIcon from "../assets/Social icons/Linkedin-icon2.png";
+import FbIcon from "../assets/Social icons/fb-icon2.png";
+import PurpleBar from "../assets/Social icons/purple-horizontal-bar.png";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import "../styles/Footer.css";
 
@@ -45,7 +45,7 @@ export default function Footer() {
               About Us
             </a>
 
-            <a href="#mission" onClick={handleScrollTo("mission")}>
+            <a href="#mission-vision" onClick={handleScrollTo("mission-vision")}>
               Mission & Vision
             </a>
 

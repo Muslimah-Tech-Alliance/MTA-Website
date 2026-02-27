@@ -10,6 +10,8 @@
 
 .programs-section h1 {
   margin-top: -4rem;
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 600;
 }
 
 .programs-list {
@@ -25,6 +27,11 @@
   align-items: center;
   gap: 2rem;
   text-align: center;
+}
+
+.each-program h1{
+  font-family: 'Public Sans', sans-serif;
+
 }
 
 .each-program button {

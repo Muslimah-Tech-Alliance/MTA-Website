@@ -8,6 +8,10 @@
     
 }
 
+.team-section h1{
+      font-family: 'Public Sans', sans-serif;
+}
+
 .profiles{
     display: flex;
     gap: 2rem;
@@ -59,7 +63,7 @@
         align-items: flex-start;
        width: 80%;
         gap: 0;
-       margin: 10rem 0rem 0rem 5%;
+       margin: 5rem 0rem 0rem 5%;
     }
 
     .profile-card {
@@ -80,15 +84,23 @@
     }
 
     .left{
-        margin-top: -10rem;
+        margin-top: -8rem;
         align-self: flex-start;
         z-index: 1;
         margin-left: -5%;
     }
 
 
-    .social-links img {
-        margin-right: 15px; 
-        width: 15px; 
-    }
+   .social-links img:not(:first-child){
+    width: 12px;
+    height: 12px;
+}
+
+
+.social-links{
+    display: flex;
+    gap: 1.3rem;
+    align-items: flex-end;
+    
+}
 }

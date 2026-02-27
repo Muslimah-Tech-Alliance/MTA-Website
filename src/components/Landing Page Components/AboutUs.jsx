@@ -1,6 +1,6 @@
-import MissionPic from "../assets/MissionPic.png";
-import VisionPic from "../assets/VisionPic.png";
-import "../styles/About.css";
+import MissionPic from "../../assets/Landing Page Pics/MissionPic.png";
+import VisionPic from "../../assets/Landing Page Pics/VisionPic.png";
+import "../../styles/Landing Page Styles/About.css";
 
 export default function AboutUs() {
   return (

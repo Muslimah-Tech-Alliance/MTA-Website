@@ -1,5 +1,6 @@
-import Partner from "../assets/PartnerCompanyPlaceholder.png"
-import "../styles/Partners.css"
+import Partner from "../../assets/Landing Page Pics/PartnerCompanyPlaceholder.png"
+import "../../styles/Landing Page Styles/Partners.css"
+
 export default function Partners(){
     return(
         <div className="partners">

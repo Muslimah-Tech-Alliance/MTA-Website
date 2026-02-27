@@ -1,10 +1,12 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css'
-import AboutUs from "./components/AboutUs.jsx"
+import AboutUs from "./components/Landing Page Components/AboutUs.jsx"
 import PastEvents from "./components/PastEvents.jsx"
-import Programs from "./components/Programs.jsx"
 import Resources from "./components/Resources.jsx"
 import LandingPage from "./pages/LandingPage.jsx"
+
+
+import Programs from "./components/Landing Page Components/Programs.jsx";
 function App() {
   
 

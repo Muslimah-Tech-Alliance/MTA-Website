@@ -1,5 +1,5 @@
-import HeaderImg from "../assets/HeaderImg.svg"
-import "../styles/Header.css"
+import HeaderImg from "../../assets/Landing Page Pics/HeaderImg.svg"
+import "../../styles/Landing Page Styles/Header.css"
 
 export default function Header(){
     return(

@@ -1,8 +1,8 @@
-import CodeAcademy from "../assets/code-academy-icon.png"
-import Pitch from "../assets/pitch-icon.png"
-import TechSummit from "../assets/tech-summit-icon.png"
-import StartupAdvisory from "../assets/startup-advisory-icon.png"
-import "../styles/Programs.css"
+import CodeAcademy from "../../assets/Landing Page Pics/code-academy-icon.png"
+import Pitch from "../../assets/Landing Page Pics/pitch-icon.png"
+import TechSummit from "../../assets/Landing Page Pics/tech-summit-icon.png"
+import StartupAdvisory from "../../assets/Landing Page Pics/startup-advisory-icon.png"
+import "../../styles/Landing Page Styles/Programs.css"
 
 export default function Programs(){
     return(

@@ -1,9 +1,11 @@
-import FbIcon from "../assets/fb-icon1.png"
-import LinkedinIcon from "../assets/Linkedin-icon1.png"
-import MemberPic from "../assets/Profile-placeholder.png"
-import XIcon from "../assets/x-icon1.png"
-import ProfileRectangle from "../assets/Profile-rectangle.png"
-import "../styles/TeamMembers.css";
+import FbIcon from "../../assets/Social icons/fb-icon1.png"
+
+import LinkedinIcon from "../../assets/Social icons/Linkedin-icon1.png"
+import MemberPic from "../../assets/Landing Page Pics/Profile-placeholder.png"
+import XIcon from "../../assets/Social icons/x-icon1.png"
+
+import ProfileRectangle from "../../assets/Landing Page Pics/Profile-rectangle.png"
+import "../../styles/Landing Page Styles/TeamMembers.css";
 
 
 export default function TeamMembers(){
