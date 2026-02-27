@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Registration Form</title>
   <link rel="stylesheet" href="registration.css">
 </head>
 <body>
@@ -28,9 +28,17 @@
           <label for="phone">Phone Number (Whatsapp):</label><br>
           <input type="tel" name="phone" required><br><br>
 
-          <label for="background">Professional Background:</label><br>
-          <input type="text" name="professional_background"><br><br>
 
+          <div class="form-group">
+          <label for="background">Professional Background</label><br>
+          <select id="background" required>
+            <option value="" disabled selected hidden></option>
+  <option value="student">Student</option>
+  <option value="employed">Employed</option>
+  <option value="self-employed">Self-employed</option>
+  <option value="unemployed">Unemployed</option>
+</select><br><br>
+          </div>
           <div class="button"><button type="submit">Register</button></div>
         </form>
       </div>

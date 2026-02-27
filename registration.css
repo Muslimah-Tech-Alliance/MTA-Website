@@ -17,7 +17,6 @@ body {
 }
 
 .header {
-  flex: 1;
   text-align: center;
   line-height: 0.005;
   width: 195.26px;
@@ -66,6 +65,14 @@ border: none;
   border-radius: 4px;
   background-color: #fbfbfb;
 }
+.form-group select {
+  width: 319px;
+  padding: 10px;
+  margin: 3px 0;
+border: none;
+  border-radius: 4px;
+  background-color: #fbfbfb;
+}
 
  .container button {
 background-color: rgba(110, 90, 158, 1);
@@ -84,6 +91,7 @@ justify-content: center;
   justify-content: center;
   width: 185px;
   height: 31px;
+  margin: 5px auto;
 }
 .right {
   width: 10%;
