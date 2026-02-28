@@ -27,10 +27,12 @@
   align-items: center;
   gap: 2rem;
   text-align: center;
+  padding: 2rem;
 }
 
-.each-program h1{
+.each-program h2{
   font-family: 'Public Sans', sans-serif;
+  font-size: 1.5rem;
 
 }
 

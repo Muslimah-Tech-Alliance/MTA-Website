@@ -3,7 +3,7 @@
         linear-gradient(rgba(88, 5, 99, 0.3), rgba(67, 3, 64, 0.3)),
         url("../../assets/Landing\ Page\ Pics/HeaderImg.svg") center top / cover no-repeat;
 
-    height: 80vh;
+    height: 100vh;
     padding: 6rem 5rem;
 
     display: flex;

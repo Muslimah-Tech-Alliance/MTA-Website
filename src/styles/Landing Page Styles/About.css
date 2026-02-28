@@ -25,6 +25,12 @@
     text-align: left;
 }
 
+.mission-section h2, .vision-section h2{
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 500;
+    
+}
+
 .mission-section, .vision-section, .about-heading{
     display: flex;
     flex-direction: column;

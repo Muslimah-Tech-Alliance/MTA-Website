@@ -5,12 +5,14 @@ import SummitHighlights from "../components/summit/HighlightSection";
 import JoinUs from "../components/summit/JoinUs";
 import TestimonialSection from "../components/summit/TestimonialSection";
 import WhoSection from "../components/summit/WhoSection";
-
+import NavBar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 
 const Summit = () => {
   return (
     <>
+    <NavBar/>
         <section className=" py-12">
             <HeroSection />
             <AboutSection/>
@@ -20,6 +22,7 @@ const Summit = () => {
             <FAQSection />
             <JoinUs/>
         </section>
+      <Footer/>
     </>
   );
 };

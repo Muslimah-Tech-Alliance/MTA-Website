@@ -5,23 +5,31 @@ import PastEvents from "./components/PastEvents.jsx"
 import Resources from "./components/Resources.jsx"
 import LandingPage from "./pages/LandingPage.jsx"
 import Summit from "./pages/Summit";
-
+import CodeAcademy from "./pages/CodeAcademy.jsx";
+import Pitch from "./pages/Pitch.jsx";
+import StartupAdvisory from "./pages/StartupAdvisory.jsx";
 
 import Programs from "./components/Landing Page Components/Programs.jsx";
 function App() {
   
 
   return (
-    <BrowserRouter>
+  <BrowserRouter>
     <Routes>
-      <Route path ="/" element={<LandingPage/>}/>
-      <Route path ="/about-us" element={<AboutUs/>}/>
-      <Route path ="/past-events" element={<PastEvents/>}/>
-      <Route path ="/programs" element={<Programs/>}/>
-      <Route path ="/resources" element={<Resources/>}/>
-      <Route path="/summit" element={<Summit />} />
+        <Route path ="/" element={<LandingPage/>}/>
+        <Route path ="/about-us" element={<AboutUs/>}/>
+        <Route path ="/past-events" element={<PastEvents/>}/>
+        <Route path ="/programs" element={<Programs/>}/>
+        <Route path ="/resources" element={<Resources/>}/>
+        <Route path="/summit" element={<Summit />} />
+        <Route path="/code-academy" element={<CodeAcademy/>} />
+        <Route path="/pitch-a-thon" element={<Pitch />} />
+        <Route path="/startup-advisory" element={<StartupAdvisory/>} />
     </Routes>
-    </BrowserRouter>
+  </BrowserRouter>
+      
+   
+
         
   )
  
